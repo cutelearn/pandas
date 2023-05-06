@@ -1,0 +1,11 @@
+version: '3'
+services:
+  bank-crawler:
+    build: .
+    image: 'ylin94/python_dev:3.11'
+    container_name: 'coin'
+    stdin_open: true
+    tty: true
+    volumes:
+      - ..:/app
+    working_dir: '/app'

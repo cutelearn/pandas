@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "coin"
+version = "0.1.0"
+description = ""
+authors = ["yang-lin94 <casongg@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.0.1"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
